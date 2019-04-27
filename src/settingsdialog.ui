@@ -1,0 +1,1158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Settingsdialog</class>
+ <widget class="QWidget" name="Settingsdialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>494</width>
+    <height>323</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>设置</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="resrc.qrc">
+    <normaloff>:/icon/icon.ico</normaloff>:/icon/icon.ico</iconset>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>40</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>VAL1</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>62</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>VAL2</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>84</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>VAL3</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>106</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>VAL4</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>128</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>VAL5</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>150</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>VAL6</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>172</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>VAL7</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>194</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>VAL8</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>216</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>VAL9</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>238</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>VAL10</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>40</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>VAL11</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_12">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>62</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>VAL12</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_13">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>84</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>VAL13</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_14">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>106</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>VAL14</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_15">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>128</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>VAL15</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_16">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>150</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>VAL16</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_17">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>172</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>VAL17</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_18">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>194</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>VAL18</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_19">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>216</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>VAL19</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_20">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>238</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>VAL20</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_21">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>变量</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_22">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>20</y>
+     <width>41</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>变量名</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_23">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>20</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>颜色</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_24">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>20</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>范围</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_25">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>20</y>
+     <width>41</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>变量名</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_26">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>20</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>变量</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_27">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>20</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>颜色</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_28">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>20</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>范围</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="name1">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>40</y>
+     <width>41</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="name1_2">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>62</y>
+     <width>41</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="name1_3">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>84</y>
+     <width>41</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="name1_4">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>106</y>
+     <width>41</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="name1_5">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>128</y>
+     <width>41</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="name1_6">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>150</y>
+     <width>41</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="name1_7">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>172</y>
+     <width>41</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="name1_8">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>194</y>
+     <width>41</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="name1_9">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>216</y>
+     <width>41</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="name1_10">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>238</y>
+     <width>41</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="name1_11">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>40</y>
+     <width>41</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="name1_12">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>62</y>
+     <width>41</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="name1_13">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>84</y>
+     <width>41</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="name1_14">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>106</y>
+     <width>41</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="name1_15">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>128</y>
+     <width>41</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="name1_16">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>150</y>
+     <width>41</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="name1_17">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>172</y>
+     <width>41</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="name1_18">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>194</y>
+     <width>41</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="name1_19">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>216</y>
+     <width>41</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="name1_20">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>238</y>
+     <width>41</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="Varlabel" name="color1_2">
+   <property name="geometry">
+    <rect>
+     <x>125</x>
+     <y>64</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Panel</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Varlabel" name="color1_7">
+   <property name="geometry">
+    <rect>
+     <x>125</x>
+     <y>174</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Panel</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Varlabel" name="color1_5">
+   <property name="geometry">
+    <rect>
+     <x>125</x>
+     <y>130</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Panel</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Varlabel" name="color1_6">
+   <property name="geometry">
+    <rect>
+     <x>125</x>
+     <y>152</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Panel</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Varlabel" name="color1_8">
+   <property name="geometry">
+    <rect>
+     <x>125</x>
+     <y>196</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Panel</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Varlabel" name="color1_3">
+   <property name="geometry">
+    <rect>
+     <x>125</x>
+     <y>86</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Panel</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Varlabel" name="color1_4">
+   <property name="geometry">
+    <rect>
+     <x>125</x>
+     <y>108</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Panel</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Varlabel" name="color1_9">
+   <property name="geometry">
+    <rect>
+     <x>125</x>
+     <y>218</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Panel</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Varlabel" name="color1">
+   <property name="geometry">
+    <rect>
+     <x>125</x>
+     <y>42</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Panel</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Varlabel" name="color1_10">
+   <property name="geometry">
+    <rect>
+     <x>125</x>
+     <y>240</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Panel</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Varlabel" name="color1_12">
+   <property name="geometry">
+    <rect>
+     <x>365</x>
+     <y>64</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Panel</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Varlabel" name="color1_17">
+   <property name="geometry">
+    <rect>
+     <x>365</x>
+     <y>174</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Panel</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Varlabel" name="color1_15">
+   <property name="geometry">
+    <rect>
+     <x>365</x>
+     <y>130</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Panel</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Varlabel" name="color1_16">
+   <property name="geometry">
+    <rect>
+     <x>365</x>
+     <y>152</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Panel</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Varlabel" name="color1_18">
+   <property name="geometry">
+    <rect>
+     <x>365</x>
+     <y>196</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Panel</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Varlabel" name="color1_13">
+   <property name="geometry">
+    <rect>
+     <x>365</x>
+     <y>86</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Panel</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Varlabel" name="color1_14">
+   <property name="geometry">
+    <rect>
+     <x>365</x>
+     <y>108</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Panel</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Varlabel" name="color1_19">
+   <property name="geometry">
+    <rect>
+     <x>365</x>
+     <y>218</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Panel</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Varlabel" name="color1_11">
+   <property name="geometry">
+    <rect>
+     <x>365</x>
+     <y>42</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Panel</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Varlabel" name="color1_20">
+   <property name="geometry">
+    <rect>
+     <x>365</x>
+     <y>240</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Panel</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="DigitLineEdit" name="range1_5">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>126</y>
+     <width>70</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="DigitLineEdit" name="range1_10">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>236</y>
+     <width>70</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="DigitLineEdit" name="range1_3">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>82</y>
+     <width>70</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="DigitLineEdit" name="range1_4">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>104</y>
+     <width>70</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="DigitLineEdit" name="range1_8">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>192</y>
+     <width>70</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="DigitLineEdit" name="range1_6">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>148</y>
+     <width>70</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="DigitLineEdit" name="range1_2">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>60</y>
+     <width>70</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="DigitLineEdit" name="range1_9">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>214</y>
+     <width>70</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="DigitLineEdit" name="range1">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>38</y>
+     <width>70</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="DigitLineEdit" name="range1_7">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>170</y>
+     <width>70</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="DigitLineEdit" name="range1_15">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>126</y>
+     <width>70</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="DigitLineEdit" name="range1_18">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>192</y>
+     <width>70</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="DigitLineEdit" name="range1_16">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>148</y>
+     <width>70</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="DigitLineEdit" name="range1_19">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>214</y>
+     <width>70</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="DigitLineEdit" name="range1_20">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>236</y>
+     <width>70</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="DigitLineEdit" name="range1_11">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>38</y>
+     <width>70</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="DigitLineEdit" name="range1_12">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>60</y>
+     <width>70</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="DigitLineEdit" name="range1_13">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>82</y>
+     <width>70</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="DigitLineEdit" name="range1_14">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>104</y>
+     <width>70</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="DigitLineEdit" name="range1_17">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>170</y>
+     <width>70</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>280</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>应用</string>
+   </property>
+   <property name="autoRepeat">
+    <bool>false</bool>
+   </property>
+   <property name="autoExclusive">
+    <bool>false</bool>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+   <property name="default">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>Varlabel</class>
+   <extends>QLabel</extends>
+   <header location="global">varlabel.h</header>
+  </customwidget>
+  <customwidget>
+   <class>DigitLineEdit</class>
+   <extends>QLineEdit</extends>
+   <header location="global">digitlineedit.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="resrc.qrc"/>
+ </resources>
+ <connections/>
+</ui>
